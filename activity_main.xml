@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/nen1">
+
+    <TextView
+        android:id="@+id/user_details"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"/>
+
+    <Button
+        android:id="@+id/bookroom"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:text="Đặt phòng" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="247dp"
+        android:layout_height="wrap_content"
+        android:text="@string/logout" />
+
+    <Button
+        android:id="@+id/infor"
+        android:layout_width="247dp"
+        android:layout_height="wrap_content"
+        android:text="Thông tin" />
+
+
+
+
+
+
+
+
+</LinearLayout>
